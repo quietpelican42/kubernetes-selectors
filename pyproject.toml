@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT AND Apache-2.0 AND BSD-3-Clause"
 license-files = ["LICENSE", "LICENSE-apache", "LICENSE-go"]
-authors = [{name = "__AUTHOR__"}]
+authors = [{name = "kofiadeyemiq"}]
 keywords = ["kubernetes", "k8s", "label-selector", "field-selector", "selector", "apimachinery"]
 classifiers = [
   "Programming Language :: Python :: 3",
@@ -19,7 +19,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/__GH_OWNER__/kubernetes-selectors"
+Repository = "https://github.com/quietpelican42/kubernetes-selectors"
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "mypy>=1.10"]
